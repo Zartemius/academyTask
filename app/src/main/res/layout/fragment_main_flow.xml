@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/pirato_container"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/main_flow__text"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="EXAMPLE"/>
+
+    <Button
+        android:id="@+id/main_flow__button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/main_flow__button_second"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+
+
+</LinearLayout>
